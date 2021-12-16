@@ -27,15 +27,15 @@ print("Ile USD dzis potrzebujesz? Smialo - mamy duzo kasy dla Ciebie:")
 kwotakredytu=int(input())
 print("Wprowadz za nas % kredytu /ponad inflacje/: ")
 oprocentowanie=int(input())
-print("Jaka miesieczna rate jestes w stanie splacac? Oragnow nie przyjmujemy ")
+print("Jaka miesieczna rate jestes w stanie splacac? Organow nie przyjmujemy ")
 ratadeklarowana=int(input())
-komunikat1="OK. Mozemy Ci udzielic kredytu na 24 miesciace. Parametry:"
+komunikat1="OK. Mozemy Ci udzielic kredytu na 24 miesiace. Parametry:"
 komunikat2="Kwota:"
 komunikat3="Oprocentowanie:"
 komunikat4="Rata:"
 # do zrobienia: print parametrow w jednej linii - takie podsumowanie - jak?
 # print(komunikat1 + kwotakredytu + komunikat2 + oprocentowanie + komunikat3 + ratadeklarowana)
-# ponizej definiowanie inflacji ze wsadu .xls - int - zaookraglenie zrobic
+# ponizej definiowanie inflacji ze wsadu .xls - int - zaokraglenie zrobic
 m1r1=int(1.592824484)
 #m2r1=int(0.453509101)
 ##m4r1=int(1.261254407)
@@ -61,9 +61,9 @@ m1r1=int(1.592824484)
 #m12r2=int(1.499708521)
 # Niech program wydrukuje dla każdego miesiąca następującą linię:
 # Twoja pozostała kwota kredytu to X, to Y mniej niż w poprzednim miesiącu.
-# formula z xls to(1 + ((inflacjadanymiesiac+opocentowanie)/kwotakreydtu)) * kwotakredytu - ratamiesieczna
+# formula z xls to(1 + ((inflacjadanymiesiac+oprocentowanie)/kwotakredytu)) * kwotakredytu - ratamiesieczna
 #print("Pozostala kwota kredytu to:") + ((kwotakredytu) - (m1r1) + oprocentowanie)/ (kwotakredytu) - ratadeklarowana
-zostalo='Pozostala kwota kredytu'
+zostalo="Pozostala kwota kredytu"
 mniej="Mniej niz w poprzednim miesiacu"
-# tu problem z wyslistowaniem zdefiniowanego int'a
+# tu problem z wylistowaniem zdefiniowanego int'a
 print((zostalo) + int(m1r1) + (mniej))
