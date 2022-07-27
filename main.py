@@ -75,38 +75,38 @@ print((left), str(dec1), ",which is:", round((nov1 -dec1), 2), (less))
 
 # second year
 
-sty2 = round((1 + ((m1r2+interest)/1200)) * dec1 - rate, 2)
-print((left), str(sty2), ",which is:", round((dec1 - sty2), 2), (less))
+jan2 = round((1 + ((m1r2+interest)/1200)) * dec1 - rate, 2)
+print((left), str(jan2), ",which is:", round((dec1 - jan2), 2), (less))
 
-lut2 = round((1 + ((m2r2+interest)/1200)) * sty2 - rate, 2)
-print((left), str(lut2), ",which is:", round((sty2 -lut2), 2), (less))
+feb2 = round((1 + ((m2r2+interest)/1200)) * jan2 - rate, 2)
+print((left), str(feb2), ",which is:", round((jan2 -feb2), 2), (less))
 
-mar2 = round((1 + ((m3r2+interest)/1200)) * lut2 - rate, 2)
-print((left), str(mar2), ",which is:", round((lut2 -mar2), 2), (less))
+mar2 = round((1 + ((m3r2+interest)/1200)) * feb2 - rate, 2)
+print((left), str(mar2), ",which is:", round((feb2 -mar2), 2), (less))
 
-kwi2 = round((1 + ((m4r2+interest)/1200)) * mar2 - rate, 2)
-print((left), str(kwi2), ",which is:", round((mar2 -kwi2), 2), (less))
+apr2 = round((1 + ((m4r2+interest)/1200)) * mar2 - rate, 2)
+print((left), str(apr2), ",which is:", round((mar2 -apr2), 2), (less))
 
-maj2 = round((1 + ((m5r2+interest)/1200)) * kwi2 - rate, 2)
-print((left), str(maj2), ",which is:", round((kwi2 -maj2), 2), (less))
+may2 = round((1 + ((m5r2+interest)/1200)) * apr2 - rate, 2)
+print((left), str(may2), ",which is:", round((apr2 -may2), 2), (less))
 
-cze2 = round((1 + ((m6r2+interest)/1200)) * maj2 - rate, 2)
-print((left), str(cze2), ",which is:", round((maj2 -cze2), 2), (less))
+jun2 = round((1 + ((m6r2+interest)/1200)) * may2 - rate, 2)
+print((left), str(jun2), ",which is:", round((may2 -jun2), 2), (less))
 
-lip2 = round((1 + ((m7r2+interest)/1200)) * cze2 - rate, 2)
-print((left), str(lip2), ",which is:", round((cze2 -lip2), 2), (less))
+jul2 = round((1 + ((m7r2+interest)/1200)) * jun2 - rate, 2)
+print((left), str(jul2), ",which is:", round((jun2 -jul2), 2), (less))
 
-sie2 = round((1 + ((m8r2+interest)/1200)) * lip2 - rate, 2)
-print((left), str(sie2), ",which is:", round((lip2 -sie2), 2), (less))
+aug2 = round((1 + ((m8r2+interest)/1200)) * jul2 - rate, 2)
+print((left), str(aug2), ",which is:", round((jul2 -aug2), 2), (less))
 
-wrz2 = round((1 + ((m9r2+interest)/1200)) * sie2 - rate, 2)
-print((left), str(wrz2), ",which is:", round((sie2 -wrz2), 2), (less))
+sep2 = round((1 + ((m9r2+interest)/1200)) * aug2 - rate, 2)
+print((left), str(sep2), ",which is:", round((aug2 -sep2), 2), (less))
 
-paz2 = round((1 + ((m10r2+interest)/1200)) * wrz2 - rate, 2)
-print((left), str(paz2), ",which is:", round((wrz2 -paz2), 2), (less))
+oct2 = round((1 + ((m10r2+interest)/1200)) * sep2 - rate, 2)
+print((left), str(oct2), ",which is:", round((sep2 -oct2), 2), (less))
 
-nov2 = round((1 + ((m11r2+interest)/1200)) * paz2 - rate, 2)
-print((left), str(nov2), ",which is:", round((paz2 -nov2), 2), (less))
+nov2 = round((1 + ((m11r2+interest)/1200)) * oct2 - rate, 2)
+print((left), str(nov2), ",which is:", round((oct2 -nov2), 2), (less))
 
 dec2 = round((1 + ((m12r2+interest)/1200)) * nov2 - rate, 2)
 print((left), str(dec2), ",which is:", round((nov2 -dec2), 2), (less))
