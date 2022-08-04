@@ -38,7 +38,7 @@ left = "The remaining loan amount is:"
 less = "less than the previous month"
 
 jan1 = round((1 + ((m1y1+interest)/1200)) * loan_amount - rate, 2)
-print((left), str(jan1), ",which is:", round((loan_amount - jan1), 2), (less))
+print(left, str(jan1), ",which is:", round((loan_amount - jan1), 2), less)
 
 feb1 = round((1 + ((m2y1+interest)/1200)) * jan1 - rate, 2)
 print((left), str(feb1), ",which is:", round((jan1 -feb1), 2), (less))
@@ -46,11 +46,11 @@ print((left), str(feb1), ",which is:", round((jan1 -feb1), 2), (less))
 may1 = round((1 + ((m3y1+interest)/1200)) * feb1 - rate, 2)
 print((left), str(may1), ",which is:", round((feb1 -may1), 2), (less))
 
-apy1 = round((1 + ((m4y1+interest)/1200)) * may1 - rate, 2)
-print((left), str(apy1), ",which is:", round((may1 -apy1), 2), (less))
+apr1 = round((1 + ((m4y1+interest)/1200)) * may1 - rate, 2)
+print((left), str(apr1), ",which is:", round((may1 -apr1), 2), (less))
 
-may1 = round((1 + ((m5y1+interest)/1200)) * apy1 - rate, 2)
-print((left), str(may1), ",which is:", round((apy1 -may1), 2), (less))
+may1 = round((1 + ((m5y1+interest)/1200)) * apr2 - rate, 2)
+print((left), str(may1), ",which is:", round((apr2 -may1), 2), (less))
 
 jun1 = round((1 + ((m6y1+interest)/1200)) * may1 - rate, 2)
 print((left), str(jun1), ",which is:", round((may1 -jun1), 2), (less))
@@ -84,11 +84,11 @@ print((left), str(feb2), ",which is:", round((jan2 -feb2), 2), (less))
 may2 = round((1 + ((m3y2+interest)/1200)) * feb2 - rate, 2)
 print((left), str(may2), ",which is:", round((feb2 -may2), 2), (less))
 
-apy2 = round((1 + ((m4y2+interest)/1200)) * may2 - rate, 2)
-print((left), str(apy2), ",which is:", round((may2 -apy2), 2), (less))
+apr2 = round((1 + ((m4y2+interest)/1200)) * may2 - rate, 2)
+print((left), str(apr2), ",which is:", round((may2 -apr2), 2), (less))
 
-may2 = round((1 + ((m5y2+interest)/1200)) * apy2 - rate, 2)
-print((left), str(may2), ",which is:", round((apy2 -may2), 2), (less))
+may2 = round((1 + ((m5y2+interest)/1200)) * apr2 - rate, 2)
+print((left), str(may2), ",which is:", round((apr2 -may2), 2), (less))
 
 jun2 = round((1 + ((m6y2+interest)/1200)) * may2 - rate, 2)
 print((left), str(jun2), ",which is:", round((may2 -jun2), 2), (less))
