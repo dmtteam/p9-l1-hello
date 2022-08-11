@@ -79,7 +79,7 @@ jan2 = round((1 + ((m1y2+interest)/1200)) * dec1 - rate, 2)
 print((left), str(jan2), ",which is:", round((dec1 - jan2), 2), (less))
 
 feb2 = round((1 + ((m2y2+interest)/1200)) * jan2 - rate, 2)
-print((left), str(feb2), ",which is:", round((jan2 -feb2), 2), (less))
+print((left), str(feb2), ",which is:", round((jan2 - feb2), 2), (less))
 
 may2 = round((1 + ((m3y2+interest)/1200)) * feb2 - rate, 2)
 print((left), str(may2), ",which is:", round((feb2 -may2), 2), (less))
