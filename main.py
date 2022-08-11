@@ -41,37 +41,37 @@ jan1 = round((1 + ((m1y1+interest)/1200)) * loan_amount - rate, 2)
 print(left, str(jan1), ",which is:", round((loan_amount - jan1), 2), less)
 
 feb1 = round((1 + ((m2y1+interest)/1200)) * jan1 - rate, 2)
-print((left), str(feb1), ",which is:", round((jan1 -feb1), 2), (less))
+print(left, str(feb1), ",which is:", round((jan1 - feb1), 2), less)
 
 may1 = round((1 + ((m3y1+interest)/1200)) * feb1 - rate, 2)
-print((left), str(may1), ",which is:", round((feb1 -may1), 2), (less))
+print(left, str(may1), ",which is:", round((feb1 - may1), 2), less)
 
 apr1 = round((1 + ((m4y1+interest)/1200)) * may1 - rate, 2)
-print((left), str(apr1), ",which is:", round((may1 -apr1), 2), (less))
+print(left, str(apr1), ",which is:", round((may1 - apr1), 2), less)
 
-may1 = round((1 + ((m5y1+interest)/1200)) * apr2 - rate, 2)
-print((left), str(may1), ",which is:", round((apr2 -may1), 2), (less))
+may1 = round((1 + ((m5y1+interest)/1200)) * apr1 - rate, 2)
+print(left, str(may1), ",which is:", round((apr1 - may1), 2), less)
 
 jun1 = round((1 + ((m6y1+interest)/1200)) * may1 - rate, 2)
-print((left), str(jun1), ",which is:", round((may1 -jun1), 2), (less))
+print(left, str(jun1), ",which is:", round((may1 - jun1), 2), less)
 
 jul1 = round((1 + ((m7y1+interest)/1200)) * jun1 - rate, 2)
-print((left), str(jul1), ",which is:", round((jun1 -jul1), 2), (less))
+print(left, str(jul1), ",which is:", round((jun1 - jul1), 2), less)
 
 aug1 = round((1 + ((m8y1+interest)/1200)) * jul1 - rate, 2)
-print((left), str(aug1), ",which is:", round((jul1 -aug1), 2), (less))
+print(left, str(aug1), ",which is:", round((jul1 - aug1), 2), less)
 
 sep1 = round((1 + ((m9y1+interest)/1200)) * aug1 - rate, 2)
-print((left), str(sep1), ",which is:", round((aug1 -sep1), 2), (less))
+print(left, str(sep1), ",which is:", round((aug1 - sep1), 2), less)
 
 oct1 = round((1 + ((m10y1+interest)/1200)) * sep1 - rate, 2)
-print((left), str(oct1), ",which is:", round((sep1 -oct1), 2), (less))
+print(left, str(oct1), ",which is:", round((sep1 - oct1), 2), less)
 
 nov1 = round((1 + ((m11y1+interest)/1200)) * sep1 - rate, 2)
-print((left), str(nov1), ",which is:", round((sep1 -nov1), 2), (less))
+print(left, str(nov1), ",which is:", round((sep1 - nov1), 2), less)
 
 dec1 = round((1 + ((m12y1+interest)/1200)) * nov1 - rate, 2)
-print((left), str(dec1), ",which is:", round((nov1 -dec1), 2), (less))
+print(left, str(dec1), ",which is:", round((nov1 - dec1), 2), less)
 
 # second year
 
