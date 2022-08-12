@@ -76,7 +76,7 @@ print(left, str(dec1), ",which is:", round((nov1 - dec1), 2), less)
 # second year
 
 jan2 = round((1 + ((m1y2+interest)/1200)) * dec1 - rate, 2)
-print(left, str(jan2), ",which is:", round((dec1 - jan2), 2), (less))
+print(left, str(jan2), ",which is:", round((dec1 - jan2), 2), less)
 
 feb2 = round((1 + ((m2y2+interest)/1200)) * jan2 - rate, 2)
 print(left, str(feb2), ",which is:", round((jan2 - feb2), 2), (less))
